@@ -15,6 +15,10 @@ arr.forEach(button => {
         }
 
         else if(e.target.innerHTML == 'AC'){
+            string = "AC";
+            input.value = string;
+        }
+        else if(e.target.innerHTML == '狗'){
             string = "";
             input.value = string;
         }
@@ -27,7 +31,7 @@ arr.forEach(button => {
             input.value = string;
         }
         else if (e.target.innerHTML == 'funk'){
-            string = "┏(-_-)┛";
+            string = "┏(-_-)┛"
             input.value = string;
         }
         else{
